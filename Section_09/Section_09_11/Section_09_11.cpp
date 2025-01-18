@@ -59,7 +59,7 @@ public:
 		// 본인이 본인을 대입하려하면 막아야함. -> 이 로직 필요
 		if (this == &source) // prevent self-assignment
 			return *this;
-		
+
 		// 가지고 있는 메모리 지우기
 		delete[] m_data;
 		m_length = source.m_length; // 길이 변경
@@ -91,7 +91,7 @@ public:
 int main()
 {
 	MyString hello("Hello");
-	
+
 	//MyString str1 = hello; // assignment operator가 있지만, copy constructor이 호출됨 (주의)
 	//// MyString str1(hello); 이렇게 사용하면 기능상으로 동일하며, 덜 헷갈릴수 있다.
 	//MyString str2; // 생성자호출

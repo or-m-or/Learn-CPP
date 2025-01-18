@@ -51,7 +51,7 @@ public:
 	}
 };
 
-int main() 
+int main()
 {
 	int my_arr1[5] = { 1, 2, 3, 4, 5 };
 	int* my_arr2 = new int[5] { 1, 2, 3, 4, 5};

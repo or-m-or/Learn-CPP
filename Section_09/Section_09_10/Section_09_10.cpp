@@ -37,9 +37,9 @@ void doSomething(Fraction frac) {
 int main()
 {
     // Fraction frac('a'); // delete 키워드에 의해 막힘
-    Fraction frac(7);        
+    Fraction frac(7);
 
-    doSomething(frac);           
+    doSomething(frac);
     doSomething(Fraction(7));
     // doSomething(7); // explicit 에 의해 막힘
 
